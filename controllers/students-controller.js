@@ -13,7 +13,7 @@ function setup(app, students) {
   });
 
   app.get('/students', function(req, res) {
-    let model = {title: "Studentss", students};
+    let model = {title: "Students", students};
     res.render('students', model);
   });
 
